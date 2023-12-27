@@ -45,7 +45,7 @@ services:
         ipv4_address: 10.2.0.100
 
   wg-easy:
-    image: ghcr.io/wg-easy/wg-easy:7
+    image: ghcr.io/wg-easy/wg-easy:9
     container_name: wg-easy
     depends_on: 
       - unbound
